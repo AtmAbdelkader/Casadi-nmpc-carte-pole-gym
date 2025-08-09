@@ -6,7 +6,7 @@
 
 🏗 CartPole Stabilization with Nonlinear MPC (CASADI)
 
-This project uses CASADI to implement a Nonlinear Model Predictive Controller (NMPC) that balances the classic CartPole from gymnasium. The controller predicts future motion using the system’s nonlinear dynamics (integrated via RK4) and optimizes control actions over a moving horizon with the Ipopt solver. At each step, only the first optimal force is applied, keeping the pole upright. The code logs and plots 📊 the cart’s position, velocity, pole angle, angular velocity, and control force.
+This project uses CASADI to implement a Nonlinear Model Predictive Controller (NMPC) that balances the classic CartPole from gymnasium. The controller predicts future motion using the system’s nonlinear dynamics (integrated via RK4 for discritization) and optimizes control actions over a moving horizon with the Ipopt solver. At each step, only the first optimal force is applied, keeping the pole upright. The code logs and plots 📊 the cart’s position, velocity, pole angle, angular velocity, and control force.
 
 
 ---
