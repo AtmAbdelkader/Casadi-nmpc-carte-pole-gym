@@ -2,6 +2,7 @@
 
 
 ---
+# Introduction
 
 🏗 CartPole Stabilization with Nonlinear MPC (CASADI)
 
@@ -10,10 +11,10 @@ This project uses CASADI to implement a Nonlinear Model Predictive Controller (N
 
 ---
 
-# 1️⃣ Install dependencies
+# Install dependencies
 pip install numpy casadi gymnasium matplotlib
 
-# 2️⃣ Run the script
+# Run the script
 python3 cartpole_nmpc.py
 
 ___
