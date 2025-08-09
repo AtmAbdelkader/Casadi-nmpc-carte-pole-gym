@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+
+#####################################################
+#! Simple code for implemente CASADI laibrary
+#! to stabilize carte-pole-gym using non-linear-MPC
+#####################################################
+
 import numpy as np
 import casadi as ca
 import gymnasium as gym
