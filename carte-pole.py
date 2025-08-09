@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #####################################################
-#! Simple code for implemente CASADI laibrary
+#! Simple code for implemente CASADI library
 #! to stabilize carte-pole-gym using non-linear-MPC
 #####################################################
 
